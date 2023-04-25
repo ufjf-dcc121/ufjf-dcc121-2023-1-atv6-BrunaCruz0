@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exer01</title>
+</head>
+<body>
+    
+    <p id="Number1">2</p>
+    <p id="Number2">3</p>
+    <p id="Number3">?</p>
+
+    <script>
+     
+     const Number1 = document.getElementById ('Number1');
+     const Number2 = document.getElementById ('Number2');
+     const Number3 = document.getElementById ('Number3');
+    const v1=Number(Number1.innerText);
+    const v2=Number(Number2.innerText);
+    const resultado= v1+v2;
+     Number3.innerText= `A soma de ${v1}+${v2} é ${resultado}`;
+    </script>
+</body>
+</html>
